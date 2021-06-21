@@ -122,7 +122,7 @@ public class MySQL extends HostnameDatabase {
 	@Override
 	public boolean open() {
 		try {
-			String url = "jdbc:mysql://" + getHostname() + ":" + getPort() + "/" + getDatabase();
+			String url = "jdbc:mysql://" + getHostname() + ":" + getPort() + "/" + getDatabase() + "?useSSL=false";
 			if (initialize()) {
 				/*om.mysql.jdbc.jdbc2.optional.MysqlDataSource ds = new com.mysql.jdbc.jdbc2.optional.MysqlDataSource();
 				

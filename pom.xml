@@ -15,8 +15,8 @@
 	
 	<repositories>
 		<repository>
-			<id>bukkit-repo</id>
-			<url>http://repo.bukkit.org/content/groups/public/</url>
+			<id>spigotmc-repo</id>
+			<url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
 		</repository>
 		<repository>
 			<id>spout-repo</id>
@@ -32,9 +32,7 @@
 		<dependency>
 			<groupId>org.bukkit</groupId>
 			<artifactId>bukkit</artifactId>
-			<version>1.7.2-R0.2</version>
-			<type>jar</type>
-			<scope>provided</scope>
+			<version>1.12.2-R0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>org.spout</groupId>
@@ -45,7 +43,7 @@
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<version>5.0.5</version>
+			<version>5.1.45</version>
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
